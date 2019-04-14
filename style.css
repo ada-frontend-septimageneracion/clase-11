@@ -4,11 +4,32 @@ main {
   margin: 0;
   height: 100vh;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+:link {
+  color: white;
+}
+
+:visited {
+  color: azure;
+}
+
 #logo {
   max-width: 12em;
 }
 #barra-navegacion {
-  background-color: red;
+  background-color: gray;
   float: left;
   position: relative;
   height: 100vh;
